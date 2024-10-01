@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    width: 100%;
+    background-color: rgb(245, 196, 205);
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    left: 5%;
+}
+.logo p {
+    color: crimson;
+    font-size: 2rem;
+}
+.menu {
+    width: 75%;
+    display: inline-block;
+}
+.menu ul {
+    list-style: none;
+    text-align: right;
+} 
+.menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu ul li a{
+    color: crimson;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+.banner{
+    width: 100%;
+    height: 50vh;
+    background-color: crimson;
+    color: rgb(247, 243, 247);
+}
+.banner h1{
+    text-align: center;
+    font-size: 4rem;
+    position: relative;
+    top: 40%;
+}
+.banner p {
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    top: 50%;
+}
+.serviços{
+    width: 100%;
+    height: 50vh;
+    background-color: aquamarine;
+}
+.card{
+    width: 20%;
+    height: 30vh;
+    display: inline-block;
+    background-color: brown;
+    position:relative;
+    margin: 0 5%;
+    box-shadow: 0 0 10px red;
+    transition: ease-in-out .9s;
+    top: 15%;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    top:15%;
+    position: relative;
+    margin-left: 80px;
+}
+
+.card h3 {
+    position: relative;
+    font-size: 1.5rem;
+    text-align: center;
+    top: 20%;
+}
+.card:hover {
+    top: 25%;
+}
